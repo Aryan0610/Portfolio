@@ -156,49 +156,42 @@
                 <div id="email">
                     Get in touch via the form below or by emailing at <div>ariactech@gmail.com</div>
                 </div>
-        
-                <div id="nameContainer">
-                    <div id="nameTitle">
-                        Name:
+                
+                <form action="https://formsubmit.co/ariactech@gmail.com" method="POST">
+                    <div id="nameContainer">
+                        <div id="nameTitle">
+                            Name:
+                        </div>
+            
+                        <input id="nameTextbox" type="text" name="name" required>
                     </div>
-        
-                    <textarea rows="1" id="nameTextbox"></textarea>
-                </div>
-        
-                <div id="emailContainer">
-                    <div id="emailTitle">
-                        Email:
+    
+                    <div id="emailContainer">
+                        <div id="emailTitle">
+                            Email:
+                        </div>
+            
+                        <input id="emailTextbox" type="email" name="email" required>
                     </div>
-        
-                    <textarea rows="1" id="emailTextbox"></textarea>
-                </div>
-        
-                <div id="messageContainer">
-                    <div id="messageTitle">
-                        Message:
+    
+                    <div id="messageContainer">
+                        <div id="messageTitle">
+                            Message:
+                        </div>
+            
+                        <input id="messageTextbox" type="text" name="message" placeholder="write your message here"></input>
                     </div>
-        
-                    <textarea rows="5" id="messageTextbox"></textarea>
-                </div>
-        
-                <button id="submitBtn">
-                    Submit
-                </button>
-            </div>
+    
+                    <button id="submitBtn" type="submit">Send</button>
+               </form>
 
-            <form action="https://formsubmit.co/ariactech@gmail.com" method="POST">
-                <input type="text" name="name" required>
-                <input type="email" name="email" required>
-                <input type="email" name="email" placeholder="Email Address">
-                <button type="submit">Send</button>
-           </form>
+            </div>
     
             <div id="contactContainerRight">
                 <img src="img/pc.svg">
             </div>
         </div>
     </div>
-
-    <script src="script.js"></script>
+    
 </body>
 </html>

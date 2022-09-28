@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0px;
+    font-family: Poppins;
+}
+
+#header {
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    background-color: #323232;
+    color: #dbdbdd;
+
+    /*display has been set to none because at the moment it serves no purpose*/
+    display: none;
+
+    /*display: flex;*/
+    justify-content: space-evenly;
+}
+
+.headerBtn {
+    font-size: 20px;
+
+    width: 20%;
+
+    background-color: #323232;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.headerBtn:hover {
+    font-weight: bolder;
+
+    color: #FFB200;
+}
+
+#homeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #424242;
+    color: #dbdbdd;
+
+    padding: 40px;
+}
+
+#homeContainerLeft {
+    margin: auto;
+
+    font-size: 20px;
+}
+
+#welcomeText {
+    display: block;
+
+    color: #FFB200;
+    
+    font-size: 40px;
+}
+
+#homeContainerRight {
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutContainer {
+    background-color: #424242;
+    color: #FFB200;
+
+    padding: 4%;
+}
+
+#aboutTitle {
+    font-size: 40px;
+}
+
+#aboutCardContainer {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+#designerCard, #frontendCard, #backendCard {
+    text-align: center;
+    font-size: 20px;
+
+    border-radius: 5px;
+
+    background-color: #dbdbdd;
+    color: #323232;
+
+    padding: 40px;
+}
+
+#designerCard:hover, #frontendCard:hover, #backendCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#designerTitle, #frontendTitle, #backendTitle {
+    font-size: 30px;
+    font-weight: bold;
+
+    color: #FFB200;
+}
+
+#designerText, #frontendText, #backendText {
+    margin-top: 40px;
+}
+
+#designerAdditional, #frontendAdditional, #backendAdditional {
+    margin-top: 20px;
+}
+
+#designerAdditionalTitle, #frontendAdditionalTitle, #backendAdditionalTitle {
+    color: #FFB200;
+} 
+
+#workContainer {
+    padding: 4%;
+
+    background-color: #424242;
+    color: #dbdbdb;
+}
+
+#workTitle {
+    font-size: 40px;
+    color: #FFB200;
+}
+
+#workSubTitle {
+    font-size: 20px;
+    color: #dbdbdb;
+}
+
+#workCards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+#workCard1, #workCard2, #workCard3, #workCard4 {
+    text-align: center;
+    font-size: 20px;
+
+    border-radius: 5px;
+
+    background-color: #dbdbdd;
+    color: #323232;
+
+    padding: 10px;
+}
+
+#workCard1:hover, #workCard2:hover, #workCard3:hover, #workCard4:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#link1, #link2, #link3, #link4 {
+    text-decoration: none;
+    
+    color: #323232;
+}
+
+#contactContainer {
+    padding: 4%;
+
+    background-color: #424242;
+    color: #FFFFFF;
+}
+
+#contactSubContainer {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contactTitle {
+    font-size: 40px;
+
+    color: #FFB200;
+}
+
+#email {
+    font-size: 20px;
+}
+
+#nameContainer, #emailContainer, #messageContainer {
+    padding: 10px 0px 10px 0px;
+
+    font-size: 20px;
+}
+
+#nameTextbox {
+    resize: none;
+    overflow: hidden;
+    font-size: 20px;
+    
+    border: none;
+    border-radius: 5px;
+
+    background-color: #626262;
+
+    width: 80%;
+}
+
+#emailTextbox {
+    resize: none;
+    overflow: hidden;
+    font-size: 20px;
+    
+    border: none;
+    border-radius: 5px;
+
+    background-color: #626262;
+
+    width: 80%;
+}
+
+#messageTextbox {
+    overflow: hidden;
+    font-size: 20px;
+    
+    border: none;
+    border-radius: 5px;
+
+    background-color: #626262;
+
+    width: 80%;
+}
+
+#submitBtn {
+    margin-top: 10px;
+    padding: 10px 40px 10px 40px;
+
+    font-size: 20px;
+
+    background-color: #626262;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 5px;
+}
+
+#submitBtn:hover {
+    background-color: #323232;
+}
+
+#nameTextbox:focus, #emailTextbox:focus, #messageTextbox:focus, #submitBtn:focus{
+    outline: none;
+
+    background-color: #323232;
+    color: #FFFFFF;
+}
+
+#contactContainerRight {
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-around;
+}

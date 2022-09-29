@@ -265,3 +265,52 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 800px) {
+    #aboutCardContainer {
+        display: block;
+    }
+
+    #designerCard, #frontendCard, #backendCard {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #homeContainer {
+        display: block;
+    }
+
+    #homeContainerLeft {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+
+    }
+
+    #contactSubContainer {
+        display: block;
+    }
+
+    #nameTextbox, #emailTextbox, #messageTextbox {
+        width: 100%;
+    }
+
+    #contactContainerRight {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #workCards {
+        display: block;
+        justify-content: space-around;
+    }
+
+    #workCard1, #workCard2, #workCard3, #workCard4 {
+        margin-top: 40px;
+
+        padding: auto;
+    }
+}
